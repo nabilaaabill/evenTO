@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff3e5;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+@media (max-width: 480px) {
+    .contact-header {
+        padding: 20px 0;
+    }
+    
+    .contact-title {
+        font-size: 1.8rem;
+    }
+    
+    .contact-form {
+        padding: 30px 20px;
+    }
+    
+    .breadcrumb {
+        font-size: 13px;
+    }
+}
+/* Login page */
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Image Side */
+.image-side {
+    flex: 1;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.image-side img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Form Side */
+.form-side {
+    flex: 1;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Branding */
+.branding {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.tagline {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Welcome Section */
+.welcome-section {
+    margin-bottom: 20px;
+}
+
+.welcome-section h2 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.auth-tabs {
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #999;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.tab-btn.active {
+    color: #333;
+    font-weight: 600;
+}
+
+.slider {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 50%;
+    height: 2px;
+    background: #333;
+    transition: all 0.3s ease;
+}
+
+/* Description */
+.description {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 1.5;
+}
+
+/* Form Styles */
+.login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    display: none;
+}
+
+.login-form.active, .register-form.active {
+    display: flex;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+.form-group input {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #666;
+}
+
+/* Form Options */
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #666;
+}
+
+.forgot-password {
+    color: #666;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Login Button */
+.login-btn {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background: #444;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    
+    .image-side {
+        height: 200px;
+    }
+    
+    .form-side {
+        padding: 40px 20px;
+    }
+}
+    .login-form, .register-form { display: none; }
+    .login-form.active, .register-form.active { display: block; }
+
+    .tab-btn { cursor: pointer; padding: 0.5rem 1rem; background: none; border: none; font-weight: bold; }
+    .tab-btn.active { border-bottom: 2px solid #333; }
+
+    .alert { position: relative; padding: 1rem 1.5rem; margin-bottom:1rem; border-radius:4px; }
+    .alert.success { background:#d4edda; color:#155724; }
+    .alert.error   { background:#f8d7da; color:#721c24; }
+    .alert .close { position:absolute; top:0.5rem; right:0.75rem; background:none; border:none; font-size:1.2rem; cursor:pointer; }
+    
