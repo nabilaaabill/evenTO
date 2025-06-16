@@ -38,6 +38,7 @@ if (!$p) {
                 <a href="index.php">Back</a>
                 <span class="icons">
                     <a href="user/auth.php"><i class="fa-solid fa-user"></i></a>
+                    <a href="#"><i class="fa-solid fa-robot"></i></a>
                 </span>
             </nav>
         </div>

@@ -24,13 +24,13 @@ $products = $stmt->fetchAll();
         <span></span><span></span><span></span>
       </div>
       <nav>
-          <a href="index.php">Home</a>
-          <a href="list.php">List</a>
-          <a href="about.php">About</a>
-          <a href="visitor/contact.php">Contact</a>
-          <span class="icons">
-              <a href="profile.php"><i class="fa-solid fa-user"></i></a>
-          </span>
+                <a href="index.php">Home</a>
+                <a href="list.php">List</a>
+                <a href="about.php">About</a>
+                 <a href="contact.php">Contact</a>
+                <span class="icons">
+                    <a href="profile.php"><i class="fa-solid fa-user"></i></a>
+                </span>
       </nav>
     </div>
   </header>

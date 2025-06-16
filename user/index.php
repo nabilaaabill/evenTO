@@ -25,7 +25,7 @@ require '../koneksi/config.php';
                 <a href="index.php">Home</a>
                 <a href="list.php">List</a>
                 <a href="about.php">About</a>
-                <a href="visitor/contact.php">Contact</a>
+                 <a href="contact.php">Contact</a>
                 <span class="icons">
                     <a href="profile.php"><i class="fa-solid fa-user"></i></a>
                 </span>
@@ -37,7 +37,7 @@ require '../koneksi/config.php';
         <div class="hero-content">
             <h2>Create Unforgettable Moments</h2>
             <p>Timeless Event specializes in crafting bespoke experiences that leave lasting impressions. Let us turn your vision into reality.</p>
-            <a href="visitor/list.php" class="btn">Explore Packages</a>
+            <a href="list.php" class="btn">Explore Packages</a>
         </div>
     </section>
 

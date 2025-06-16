@@ -54,13 +54,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <div class="hamburger" id="hamburger">
         <span></span><span></span><span></span>
       </div>
-      <nav id="menu">
-        <a href="../index.php">Home</a>
+      <nav>
+        <a href="index.php">Home</a>
         <a href="list.php">List</a>
         <a href="about.php">About</a>
-        <a href="contact.php" class="active">Contact</a>
+          <a href="contact.php">Contact</a>
         <span class="icons">
-          <a href="profile.php"><i class="fa-solid fa-user"></i></a>
+            <a href="profile.php"><i class="fa-solid fa-user"></i></a>
         </span>
       </nav>
     </div>

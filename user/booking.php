@@ -92,6 +92,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <a href="contact.php">Contact</a>
         <span class="icons">
           <a href="../user/auth.php"><i class="fa-solid fa-user-slash"></i></a>
+          <a href="#"><i class="fa-solid fa-robot"></i></a>
         </span>
       </nav>
     </div>

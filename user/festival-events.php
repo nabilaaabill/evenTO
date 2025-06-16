@@ -29,7 +29,7 @@ $products = $stmt->fetchAll();
         <span></span><span></span><span></span>
       </div>
       <nav id="menu">
-        <a href="../index.php">Home</a>
+        <a href="index.php">Home</a>
         <a href="list.php" class="active">List</a>
         <a href="about.php">About</a>
         <a href="contact.php">Contact</a>
