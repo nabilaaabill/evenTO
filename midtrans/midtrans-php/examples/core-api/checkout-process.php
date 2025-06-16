@@ -25,7 +25,7 @@ printExampleWarningMessage();
 // Config::$paymentIdempotencyKey = "Unique-ID";
 
 $transaction_details = array(
-    'order_id'    => time(),
+    'order_id'    => rand(),
     'gross_amount'  => 200000
 );
 
