@@ -1,7 +1,7 @@
 <?php
 // config.php
 $host     = 'localhost';
-$db       = 'timeless_event_updated';
+$db       = 'timeless_event';
 $user     = 'root';
 $pass     = '';
 $charset  = 'utf8mb4';
