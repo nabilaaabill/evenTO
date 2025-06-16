@@ -14,7 +14,6 @@ require 'koneksi/config.php';
 <body>
     <header class="site-header">
         <div class="container">
-            <!-- <img src="img/Logo_timeless.png" alt="Timeless Logo" class="logo-img"> -->
             <h1 class="logo-text">Timeless EO</h1>
             <div class="hamburger" id="hamburger">
                     <span></span>
@@ -22,7 +21,7 @@ require 'koneksi/config.php';
                     <span></span>
             </div>
             <nav>
-                <a href="index.php">Home</a>
+                <a href="../index.php">Home</a>
                 <a href="visitor/list.php">List</a>
                 <a href="visitor/about.php">About</a>
                 <a href="visitor/contact.php">Contact</a>
