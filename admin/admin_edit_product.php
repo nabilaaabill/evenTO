@@ -5,7 +5,7 @@ require '../koneksi/config.php';
 
 // validasi ID
 if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
-    header('Location: index.php');
+    header('Location: admin_dashboard.php');
     exit;
 }
 $id = (int)$_GET['id'];
@@ -87,7 +87,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
   <header class="header">
     <h1>Edit Produk</h1>
-    <a href="index.php" class="btn-back">← Dashboard</a>
+    <a href="admin_index.php" class="btn-back">← Dashboard</a>
   </header>
 
   <div class="container">

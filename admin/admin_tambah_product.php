@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
   <header class="header">
     <h1>Tambah Produk</h1>
-    <a href="index.php" class="btn-back">← Dashboard</a>
+    <a href="admin_index.php" class="btn-back">← Dashboard</a>
   </header>
 
   <div class="container">

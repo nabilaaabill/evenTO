@@ -38,7 +38,7 @@ $contacts = $stmt->fetchAll();
 </head>
 <body>
   <h1>Incoming Messages</h1>
-  <a href="index.php" class="button">← Back to Dashboard</a>
+  <a href="admin_index.php" class="button">← Back to Dashboard</a>
 
   <?php if (empty($contacts)): ?>
     <p>No messages yet.</p>
